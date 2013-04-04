@@ -1,0 +1,36 @@
+** SNMP Informant Standard Metrics for Windows Devices **
+Created by G0dSmack
+
+-Notes-
+
+I looked all over out here to try and find some Windows templates that I liked and none of them seemed to get me where I wanted to go. So I created all of these. Feel free to contact me if you have any issues.
+
+
+-Installation-
+
+1) Install snmp informant std. 1.6 on your windows device. http://www.snmp-informant.com/snmp_informant-standard.htm
+2) Drop the snmp_informant_standard_*.xml files into your \cacti\resource\snmp_queries directory on your cacti box.
+3) Import the cacti_host_template_windows_host_-_snmp_informant.xml
+4) Add a windows device and select Windows Host - SNMP Informant as device type
+
+
+-Changelog-
+09/28/2012 - v13 Release - Added host template which will create new host template and all related graph templates and data query templates
+12/04/2011 - v12 Release - Removed Data Query - SNMP - Informant CPU Statistics - cpuAPCBypassesPerSe and cpuDPCBypassesPerSe (Are not working)
+			- Removed cpuAPCBypassesPerSe and cpuDPCBypassesPerSe from CPU Statistics Graphs
+12/03/2011 - v11 Release 
+			- Changed graph width to 700 on each graph template
+			- Removed duplicate AvgDiskSecPerRead from Graph template - SNMP_Informant_Standard - Disk Statistics (Metrics)
+			- Data Query - SNMP - Informant CPU Statistics - Added cpuAPCBypassesPerSe and cpuDPCBypassesPerSe
+			- Added cpu APC Bypasses/Sec and cpu DPC Bypasses/Sec to CPU Statistics - You will have to remove the graphs and rrd files from previous versions and start collecting on these new
+			- Graph template - SNMP_Informant_Standard - CPU Statistics - Removed Threshold
+12/02/2011 - v10 Release - Exported from 0.8.7 g - renamed queries, file, etc to follow cacti naming standards
+01/16/2010 - v9 Release - The network IO graph was showing as MB/s....the actual numbers were reported as Mb/s....so now it is correct as both report as MB/s
+08/25/2009 - v8 Release - exported from 0.8.7 e
+04/30/2009 - v7 Release
+04/15/2009 - v6 Release
+04/06/2009 - v5 Release - exported from 0.8.7 d
+11/12/2008 - Initial Release
+
+
+
