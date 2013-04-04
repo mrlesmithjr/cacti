@@ -17,7 +17,7 @@ For more information visit http://everythingshouldbevirtual.com
 
 
 -Changelog-
-04/04/2013 - v13 Release - Uploaded to github https://github.com/mrlesmithjr/cacti
+04/04/2013 - v13 Release - Uploaded to github https://github.com/mrlesmithjr/cacti.git
 09/28/2012 - v13 Release - Added host template which will create new host template and all related graph templates and data query templates
 12/04/2011 - v12 Release - Removed Data Query - SNMP - Informant CPU Statistics - cpuAPCBypassesPerSe and cpuDPCBypassesPerSe (Are not working)
 			- Removed cpuAPCBypassesPerSe and cpuDPCBypassesPerSe from CPU Statistics Graphs
