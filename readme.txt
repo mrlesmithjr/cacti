@@ -1,10 +1,12 @@
 ** SNMP Informant Standard Metrics for Windows Devices **
-Created by G0dSmack
+Created by @mrlesmithjr
+http://everythingshouldbevirtual.com
 
 -Notes-
 
 I looked all over out here to try and find some Windows templates that I liked and none of them seemed to get me where I wanted to go. So I created all of these. Feel free to contact me if you have any issues.
 
+For more information visit http://everythingshouldbevirtual.com
 
 -Installation-
 
@@ -15,6 +17,7 @@ I looked all over out here to try and find some Windows templates that I liked a
 
 
 -Changelog-
+04/04/2013 - v13 Release - Uploaded to github https://github.com/mrlesmithjr/cacti
 09/28/2012 - v13 Release - Added host template which will create new host template and all related graph templates and data query templates
 12/04/2011 - v12 Release - Removed Data Query - SNMP - Informant CPU Statistics - cpuAPCBypassesPerSe and cpuDPCBypassesPerSe (Are not working)
 			- Removed cpuAPCBypassesPerSe and cpuDPCBypassesPerSe from CPU Statistics Graphs
